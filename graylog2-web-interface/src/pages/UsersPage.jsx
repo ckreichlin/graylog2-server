@@ -39,7 +39,7 @@ const UsersPage = React.createClass({
             }
             {' '}
             {this.isPermitted(permissions, 'USERS_CREATE') &&
-              <LinkContainer to={Routes.SYSTEM.USERS.CREATE}>
+              <LinkContainer to={Routes.SYSTEM.AUTHENTICATION.USERS.CREATE}>
                 <Button bsStyle="success">Add new user</Button>
               </LinkContainer>
             }
